@@ -1,0 +1,33 @@
+label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+input,textarea, select {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+.design {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(224, 234, 234);
+    background-color: rgb(38, 123, 81);        
+}
+
+#color {
+    background-color: brown;
+}
+
+
