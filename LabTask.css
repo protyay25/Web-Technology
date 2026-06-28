@@ -1,0 +1,71 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue0;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(51, 0, 255);
+    font-weight: bolder;
+}
+
+h3{
+    font-size: larger;
+}
+
+form {
+    width: 600px;
+    margin: auto;
+    padding: 30px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+input,textarea, select {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+.design {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(224, 234, 234);
+    background-color: rgb(38, 123, 81);        
+}
+
+#color {
+    background-color: brown;
+}
+
+table,tr,td {
+    border: 1px solid black;
+    height: 100px;
+    width: 500px; 
+    margin: auto; 
+    text-align: center; 
+    font-size: larger;
+}
+footer{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: larger;
+}
+
