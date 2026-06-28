@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Saver Blood Donation Program</title>
+    <link rel="stylesheet" href="LabTask.css">
+
+</head>
+
+<body>
+
+    <header>
+    <h1 style="text-align: center; color: brown;">Life Saver Blood Donation Program</h1>
+    <p style="text-align: center; color: blueviolet;">This is the web page for user Registration to donate blood and patient information for donating blood.<br> The program connects blood donors with patients in need, ensuring timely access to safe blood during emergencies, surgeries, accidents, and medical treatments.</p> <br>
+    </header>
+
+    <h2  style="text-align: center;">Blood Donor Registration Form</h2><br>
+    
+<form action="#" method = "post">
+
+ <fieldset>
+    <legend style="text-align: center; color:blue;">Personal Information</legend>
+
+  <label for="fname">Full Name:</label><br>
+  <input type="text" id="fname" name="fname" required><br><br>
+
+  <label for="age">Age:</label><br>
+  <input type="number" id="age" name="age" required><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required> <br><br>
+
+  <label for="pnumber">Phone Number:</label><br>
+  <input type="tel" id="pnumber" name="pnumber" required> <br><br>
+
+  <label for="gender">Gender:</label> <br>
+     <input type="radio" name="gender" value="Male"> Male
+     <input type="radio" name="gender" value="Female"> Female
+     <input type="radio" name="gender" value="Other"> Other <br> <br>
+ </fieldset>
+
+    <fieldset>
+    <legend style="text-align: center; color: blue;">Donate Information</legend>
+
+  <label for = "ldd">Last Donation Date:</label><br>
+  <input type="date" name="ldd" required><br><br>
+
+  <label for = "address">Address:</label><br>
+  <textarea name="address" rows="4" cols="25"></textarea><br><br>
+
+  <label for = "hc">Health Condition:</label><br>
+  <textarea name="hc" rows="4" cols="25"></textarea><br><br>
+
+  <label for = "bg">Blood Group:</label><br>
+        <select name="bg">
+            <option>A+</option>
+            <option>B+</option>
+            <option>O+</option>
+            <option>AB+</option>
+        </select> <br><br>
+      
+<input type="checkbox" id="correct" name="correct" value="correct">
+<label for="correct"> Agree to the term and condition</label><br> <br>   
+
+<input class="design" type="submit" value="Register">
+<input id = "color" class="design" type="reset" value="Reset">
+  </fieldset> 
+</form>    
+
+
+<br><br> <h2  style="text-align: center;">Blood Request Form</h2><br>
+<form action="#" method = "post">
+
+ <fieldset>
+    <legend style="text-align: center; color:blue;">Patient Information</legend>
+  
+
+  <label for="pname">Patient Name:</label><br>
+  <input type="text" id="pname" name="pname" required><br><br>
+
+    <label for = "rbg">Required Blood Group:</label><br>
+        <select name="rbg">
+            <option>A+</option>
+            <option>B+</option>
+            <option>O+</option>
+            <option>AB+</option>
+        </select> <br><br>
+
+  <label for="hn">Hospital Name:</label><br>
+  <input type="number" id="hn" name="hn" required><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required> <br><br>
+
+  <label for="enumber">Emergency Contact Number:</label><br>
+  <input type="tel" id="enumber" name="enumber" required> <br><br>
+    
+  <label for = "rd">Required Date:</label><br>
+  <input type="date" name="rd" required><br><br>
+
+  <label for = "message">Additional Message:</label><br>
+  <textarea name="message" rows="4" cols="25"></textarea><br><br>
+ 
+<input class="design" type="submit" value="Register">
+</fieldset>
+
+</form>    
+
+<br><br><br>
+
+<h3 style="color: rgb(36, 71, 183); text-align: center;"><u><b>Available Blood Groups and Number</b></u></h3>
+    <table>
+              <thead style="background-color: aqua;">
+                 <tr>
+                    <th>Blood Group</th>
+                    <th>Number of Donors</th>
+                    
+                 </tr>
+              </thead>
+
+              <tbody style="background-color: rgb(29, 206, 88);">
+                 <tr>
+                    <td>A+</td>
+                    <td>10</td>
+                 </tr>
+                 <tr>
+                    <td>B+</td>
+                    <td>50</td>
+                 </tr>
+                 <tr>
+                    <td>O+</td>
+                    <td>50</td>
+                 </tr>
+                                  <tr>
+                    <td>AB+</td>
+                    <td>28</td>
+                 </tr>
+             </tbody>
+             
+    </table>
+
+
+<br><br>
+
+<footer>
+    <p>Thanks for donating and visiting the site</p>
+    <p>Contact Us : 0183746444</p>
+</footer>
+
+</body>
+</html>
